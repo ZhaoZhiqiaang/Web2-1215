@@ -1,0 +1,85 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			.head{
+				height: 20px;
+				top: 80px;
+				position: relative;
+				background-color:#ccc;
+			}
+			.box1{
+				width: 1000px;
+				height: 20px;
+				position: absolute;
+				left: 420px;
+				overflow: hidden;
+			}
+			.text{
+				width: 500px;
+				height: 20px;
+				position: absolute;
+				right: -600px;
+			}
+			.image{
+				position: absolute;
+				margin-left: 400px;
+			}
+			.box{
+				width: 1200px;
+				height: 400px;
+				margin: 100px auto;
+				position: relative;
+				overflow: hidden;
+			}
+			.slider{
+				width: 8400px;
+				position: absolute;
+				left: -1200px;
+			}
+			.slide{
+				width: 1200px;
+				float: left;
+			}
+			.box>span{
+				display: block;
+				width: 30px;
+				height: 50px;
+				text-align: center;
+				cursor: pointer;
+				top: 175px;
+				line-height: 50px;
+				background: goldenrod;
+				font-size: 30px;
+				position: absolute;
+				opacity: 0;
+			}
+			#left{
+				top: 220px;
+				left: 30px;
+			}
+			#right{
+				top: 220px;
+				right: 30px;
+			}
+			.nav{
+				position: absolute;
+				left: 470px;
+				bottom:20px;
+			}
+			.nav>li{
+				float: left;
+				width: 20px;
+				height: 20px;
+				background: #ccc;
+				cursor: pointer;
+				margin: 0 10px;
+				text-align: center;
+				border-radius: 50%;
+			}
+			.nav .active{
+				background: red;
+			}
